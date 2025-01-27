@@ -6,14 +6,14 @@
     <title>Document</title>
   </head>
   <body>
-    // exibir dados na tela: alert //ler os dados do teclado: prompt
-
     <script>
-      var peso = 83;
-      var altura = 1.8;
-      var resultado = peso / (altura * altura);
+      var atual = prompt("por favor, digite o ano atual");
 
-      alert(resultado);
+      var nascimento = prompt("por favor, digite o ano de nascimento");
+
+      var minhaidade = atual - nascimento;
+
+      alert("sua idade é:" + minhaidade);
     </script>
   </body>
 </html>
