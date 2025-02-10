@@ -4,9 +4,9 @@ var nota = Number(
 
 if (nota >= 7 && nota <= 10) {
   alert("Parabéns, voce foi aprovado!");
-} else if (nota >= 5 && nota <= 6) {
+} else if (nota >= 5 && nota <= 7) {
   alert("Infelizmente o aluno terá que cumprir recuperação");
-} else if (nota >= 0 && nota <= 4) {
+} else if (nota >= 0 && nota <= 4.9) {
   alert("Infelizmente o aluno reprovou ");
 } else {
   alert("Nota inválida");
